@@ -1,0 +1,21 @@
+{
+  "name": "1.6",
+  "version": "",
+  "description": "none",
+  "main": "none",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "sistc",
+  "license": "ISC"
+}

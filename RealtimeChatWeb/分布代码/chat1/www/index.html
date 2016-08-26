@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body>
+	this is my page
+	<p><button id="sendBtn">click me</button></p>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript">
+	var socket=io.connect(),//与服务器进行连接
+		button=document.getElementById('sendBtn');
+	var i = 1;
+	button.onclick=function(){
+		socket.emit('foo', 'you click the button'+i+"times");//发送一个名为foo的事件，并且传递一个字符串数据‘hello’
+		i++;
+	}
+	
+</script>
+</body>
+</html>

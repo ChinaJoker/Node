@@ -1,0 +1,22 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "sdssafa",
+  "main": "122",
+  "scripts": {
+    "test": "111"
+  },
+  "repository": {
+    "type": "git",  
+    "url": "adad"
+  },
+  "keywords": [
+    "fff"
+  ],
+  "author": "dd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "utility": "^1.6.0"
+  }
+}
